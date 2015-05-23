@@ -32,7 +32,7 @@ abstract class BaseClass
     }
     //定义抽象方法，要求子类去实现
     //子类实现抽象方法的修饰权限必须大于父类定义的修饰符
-   abstract  protected function someFunction();
+     protected abstract function someFunction();
 
 }
 

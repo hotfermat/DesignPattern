@@ -18,7 +18,7 @@ namespace DesignPattern\StrategyMode;
  */
 abstract class Strategy
 {
-    abstract public function strategyMethod();
+    public  abstract function strategyMethod();
 }
 
 /**
