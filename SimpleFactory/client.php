@@ -12,5 +12,5 @@ require_once "server.php";
 use DesignPattern\SimpleFactory\SimpleFactory;
 
 $simpleFactory = new SimpleFactory();
-$subClass= $simpleFactory->createSubClass("A");
-$subClass->someFunction();
+$subClassA= $simpleFactory->createSubClass("A");
+$subClassA->someFunction();

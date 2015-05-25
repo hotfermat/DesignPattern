@@ -106,5 +106,5 @@ class SimpleFactory
 }
 
 //$simpleFactory = new SimpleFactory();
-//$subClass= $simpleFactory->createSubClass("A");
-//$subClass->someFunction();
+//$subClassA= $simpleFactory->createSubClass("A");
+//$subClassA->someFunction();
